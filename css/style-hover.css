@@ -1,0 +1,146 @@
+
+
+
+.waves {
+    transition: transform .6s;
+}
+
+.waves:hover {
+    transform: translateY(5%);
+
+}
+
+.face-total:hover .eyebrow-right,
+.face-total:hover .eyebrow-left {
+    transform: scale(1.05);
+}
+
+
+.face-total:hover .cheek-right-small,
+.face-total:hover .cheek-right,
+.face-total:hover .cheek-left {
+    transform: rotate(-.5deg) scaleX(1.05);
+}
+
+.face-total:hover .mouth,
+.face-total:hover .teeth-bottom,
+.face-total:hover .teeth-top {
+    transform: rotate(-1deg) scaleX(1.05);
+}
+
+.mouth,
+.teeth-bottom,
+.teeth-top {
+    transition: transform .4s ease-out;
+    transform-origin: 40% 10% ;
+}
+
+.cheek-right:hover,
+.cheek-right-small:hover {
+    transform: scale(1.01);
+}
+
+.eyebrow-left,
+.eyebrow-right {
+    transition: transform .3s ease-out;
+    transform-origin: -15% 90% ;
+}
+
+.cheek-right-small,
+.cheek-right,
+.cheek-left {
+    transition: transform .4s ease-out;
+    transform-origin: -15% 80% ;
+}
+
+
+.total-surf:hover .face-total-surf{
+    transform: rotate(-3deg) scale(1.02);
+}
+
+.total-surf:hover .total-surfer-body {
+    /* transform: translate(30%, 5%); */
+    transform: rotate(2deg);
+
+}
+
+.total-surfer-body {
+    transition: transform 1s ease-in-out;
+    transform-origin: 20% -20% ;
+}
+
+
+
+.face-total-surf {
+    transition: transform .4s ease-out;
+    transform-origin: 50% 20% ;
+}
+
+/* .face-total-surf:hover {
+    transform: scale(1.05);
+} */
+
+.total-surf:hover .eyebrow-right-surf,
+.total-surf:hover .eyebrow-left-surf {
+    transform: scale(1.005);
+}
+
+
+.total-surf:hover .cheek-right-small-surf,
+.total-surf:hover .cheek-right-surf,
+.total-surf:hover .cheek-left-surf {
+    transform: rotate(-.3deg) scaleX(1.009);
+}
+
+.total-surf:hover .mouth-surf,
+.total-surf:hover .teeth-bottom-surf,
+.total-surf:hover .teeth-top-surf {
+    transform: rotate(-1deg) scaleX(1.05);
+}
+
+.total-surf:hover .hand-left {
+    transform: rotate(-5deg) scaleX(1.05);
+}
+
+.total-surf:hover .hand-right {
+    transform: rotate(.85deg) scaleX(1.01);
+}
+
+
+
+
+.mouth-surf,
+.teeth-bottom-surf,
+.teeth-top-surf,
+.surfboard {
+    transition: transform .4s ease-out;
+    transform-origin: 40% 10% ;
+}
+
+.hand-left,
+.hand-right  {
+    transition: transform .4s ease-out;
+    transform-origin: 20% 40% ;
+}
+
+.cheek-right-surf:hover,
+.cheek-right-small-surf:hover {
+    transform: scale(1.005);
+}
+
+.total-surf:hover .surfboard  {
+    transform: rotate(.5deg);
+}
+
+.eyebrow-left-surf,
+.eyebrow-right-surf {
+    transition: transform .3s ease-out;
+    transform-origin: -5% 200% ;
+}
+
+.cheek-right-small-surf,
+.cheek-right-surf,
+.cheek-left-surf {
+    transition: transform .4s ease-out;
+    transform-origin: 40% 10% ;
+}

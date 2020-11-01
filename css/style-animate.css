@@ -1,0 +1,175 @@
+/*  ANIAMTE SUN */
+
+#sun-inner {
+    animation: sun-inner 8s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+#sun-middle {
+    animation: sun-middle 10s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#sun-outer {
+    animation: sun-outer 12s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes sun-inner {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(-25deg);
+    }
+}
+
+@keyframes sun-middle {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(15deg);
+    }
+}
+
+@keyframes sun-outer {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(5deg);
+    }
+}
+
+/* / ANIMATE SUN */
+
+/* BODY ANIMATE */
+
+#wave-under,
+#surfer-total {
+    animation: surfer-total 1.5s cubic-bezier(.51,-0.77,.41,1.29) infinite alternate;
+
+}
+
+@keyframes surfer-total {
+    from{
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(3%);
+    }
+}
+
+
+#eyebrow-right,
+#eyebrow-left{
+    animation: eyebrow 3s ease-out infinite alternate;
+}
+
+@keyframes eyebrow {
+
+    0% {
+        transform: translateY(0%);
+    }
+
+    10% {
+        transform: translateY(-1%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    70% {
+        transform: translateY(-1%);
+    }
+
+
+    100% {
+        transform: translateY(-1%);
+    }
+}
+
+#cheek-right-small,
+#cheek-right,
+#cheek-left {
+    animation: cheeks 3s  ease-out infinite alternate;
+
+}
+
+@keyframes cheeks {
+
+
+    10% {
+        transform: rotate(-.2deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(-.2deg);
+    }
+
+    100% {
+        transform: rotate(-.2deg);
+    }
+}
+
+
+#mouth,
+#teeth-bottom,
+#teeth-top {
+    animation: mouth 3s  ease-out infinite alternate;
+    transform-origin: bottom left;
+    transform-box: fill-box;
+}
+
+@keyframes mouth {
+
+
+    10% {
+        transform: rotate(-.3deg) scale(1.05);
+    }
+
+    50% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    70% {
+        transform: rotate(-.3deg) scale(1.05);
+    }
+
+    100% {
+        transform: rotate(-.3deg) scale(1.05);
+    }
+}
+
+/* / BODY ANIMATE */
+
+
+
+/* WAVE ANIMATE */
+
+#wave-under {
+    animation: wave-under 1.5s cubic-bezier(.51,-0.77,.78,1.27) infinite alternate;
+
+}
+
+@keyframes wave-under {
+    from{
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(2%);
+    }
+}
+
+/* / WAVE ANIMATE */
