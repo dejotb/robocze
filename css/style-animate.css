@@ -53,19 +53,62 @@
 
 #wave-under,
 #surfer-total {
-    animation: surfer-total 1.5s cubic-bezier(.51,-0.77,.41,1.29) infinite alternate;
-
+    animation: surfer-total 2.5s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
 @keyframes surfer-total {
-    from{
-        transform: translateY(0%);
+    0% {
+        transform: translate(0%, 5%);
     }
-    to {
-        transform: translateY(3%);
+    50% {
+        transform: translate(4%, -20%);
+    }
+
+    100% {
+        transform: translate(3% 3%);
     }
 }
 
+#board-legs {
+    animation: surfer-body-upper .4s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes surfer-body-upper {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-1%);
+    }
+}
+
+
+
+#face-total {
+    animation: face-total 3s ease-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes face-total {
+
+    0% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+
+}
 
 #eyebrow-right,
 #eyebrow-left{
@@ -152,24 +195,88 @@
     }
 }
 
+
+#hand-left {
+    animation: hand-left 1.5s  ease-out infinite alternate;
+    transform-origin: top right;
+    transform-box: fill-box;
+}
+
+
+@keyframes hand-left {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+#hand-right {
+    animation: hand-right 1.5s  ease-out infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+
+@keyframes hand-right {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-29deg);
+    }
+}
+
 /* / BODY ANIMATE */
 
 
 
 /* WAVE ANIMATE */
 
+
 #wave-under {
-    animation: wave-under 1.5s cubic-bezier(.51,-0.77,.78,1.27) infinite alternate;
+    animation: wave-under 1s cubic-bezier(.51,-0.77,.78,1.27) infinite alternate;
 
 }
 
 @keyframes wave-under {
     from{
+        transform: translateY(5%);
+    }
+    to {
+        transform: translateY(-.5%);
+    }
+}
+
+#wave-top1,
+#wave-top2,
+#wave-under-left {
+    animation: wave-under-left 1.5s cubic-bezier(.51,-0.77,.78,1.27) infinite alternate;
+
+}
+
+@keyframes wave-under-left {
+    from{
         transform: translateY(0%);
     }
     to {
-        transform: translateY(2%);
+        transform: translateY(3%);
     }
 }
+
+
+#waves {
+    animation: waves 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes waves {
+    from{
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(.7%);
+    }
+}
+
 
 /* / WAVE ANIMATE */
