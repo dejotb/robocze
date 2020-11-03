@@ -242,7 +242,7 @@
 
 
 .wave-under {
-    animation: wave-under 1.5s ease-in  infinite alternate;
+    animation: wave-under 1.5s ease-in-out  infinite alternate;
 
 }
 
