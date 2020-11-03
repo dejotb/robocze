@@ -280,3 +280,89 @@
 
 
 /* / WAVE ANIMATE */
+
+
+  /* #wind path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 6s ease-out forwards infinite;
+
+    @for $i from 1 through 6 {
+      &:nth-child(#{$i}) {
+        animation-delay: random(2) + ($i - 1) * 6 + 3s;
+      }
+    }
+
+  } */
+
+
+
+
+
+
+
+  #wind1 path {
+    stroke-dasharray: 39592.87890625;
+    stroke-dashoffset: 39592.87890625;
+    animation: dash1 1.6s linear forwards infinite;
+
+    @for $i from 1 through 6 {
+      &:nth-child(#{$i}) {
+        animation-delay: random(2) + ($i - 1) * 6 + 3s;
+      }
+    }
+  }
+
+
+@keyframes dash1 {
+
+    0% {
+        stroke-dashoffset: 39592.87890625;
+        transform: translateX(0%);
+      }
+
+      40% {
+        stroke-dasharray: 30592.87890625;
+        stroke-dashoffset: 0;
+      }
+
+
+    100% {
+        stroke-dasharray: 39592.87890625;
+        stroke-dashoffset: -39592.87890625;
+        transform: translateX(100%);
+    }
+}
+
+#wind2 path {
+    stroke-dasharray: 39592.87890625;
+    stroke-dashoffset: 39592.87890625;
+    animation: dash2 1.6s linear .7s forwards infinite;
+
+    @for $i from 1 through 6 {
+      &:nth-child(#{$i}) {
+        animation-delay: random(2) + ($i - 1) * 6 + 3s;
+      }
+    }
+  }
+
+
+@keyframes dash2 {
+
+    0% {
+        stroke-dashoffset: 39592.87890625;
+        transform: translateX(0%);
+      }
+
+      40% {
+        stroke-dasharray: 30592.87890625;
+        stroke-dashoffset: 0;
+      }
+
+
+    100% {
+        stroke-dasharray: 39592.87890625;
+        stroke-dashoffset: -39592.87890625;
+        transform: translateX(100%);
+    }
+}
