@@ -95,7 +95,7 @@ section {
 .section-item-2,
 .section-item-3,
 .section-item-4 {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -110,8 +110,8 @@ section {
     display: flex;
     position: relative;
     overflow: hidden;
-    min-height: 40vh;  /* change to 30vh */
-    background-image: linear-gradient(#0984e3 5%,  #714ABA 58%);
+    min-height: 60vh;  /* change to 30vh */
+    background-image: linear-gradient(#0984e3 5%,  #74b9ff 58%);
     /* background-color: #714ABA; */
     margin-bottom: -3em;
 }
@@ -188,7 +188,7 @@ footer {
 }
 
 .total-surf {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
