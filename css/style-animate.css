@@ -1,40 +1,26 @@
 /*  ANIAMTE SUN */
 
-#sun-inner {
-    animation: sun-inner 8s infinite linear alternate;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
 
 #sun-middle {
-    animation: sun-middle 10s infinite linear alternate;
+    animation: sun-middle 50s infinite linear alternate;
     transform-origin: center;
     transform-box: fill-box;
 }
 
 #sun-outer {
-    animation: sun-outer 12s infinite linear alternate;
+    animation: sun-outer 170s infinite linear alternate;
     transform-origin: center;
     transform-box: fill-box;
 
 }
 
-@keyframes sun-inner {
-    from{
-        transform: rotateZ(0deg);
-    }
-    to {
-        transform: rotateZ(-25deg);
-    }
-}
 
 @keyframes sun-middle {
     from{
         transform: rotateZ(0deg);
     }
     to {
-        transform: rotateZ(15deg);
+        transform: rotateZ(360deg);
     }
 }
 
@@ -43,7 +29,7 @@
         transform: rotateZ(0deg);
     }
     to {
-        transform: rotateZ(5deg);
+        transform: rotateZ(-360deg);
     }
 }
 
@@ -63,7 +49,7 @@
         transform: translate(0%, 5%);
     }
     50% {
-        transform: translate(4%, -20%);
+        transform: translate(-20%, 25%);
     }
 
 
@@ -72,6 +58,15 @@
         transform: translate(3% 3%);
     }
 }
+
+
+
+
+
+
+
+
+
 
 #board-legs {
     animation: board-legs .4s ease-in-out infinite alternate;
@@ -85,7 +80,7 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(-2%);
+        transform: translateY(-4%);
     }
 }
 
@@ -240,9 +235,28 @@
 
 /* WAVE ANIMATE */
 
+#whitewater circle {
+    animation: whitewater .008s ease-in infinite alternate;
+    transform-origin: bottom right;
+    transform-box: fill-box;
+}
+
+@keyframes whitewater {
+    from {
+        transform: translate(0%, 0%);
+    }
+
+    to {
+        transform: translate(0%, 10%) skewY(20deg) scale(1.2);
+    }
+
+}
+
+
+
 
 .wave-under {
-    animation: wave-under 1.5s ease-in-out  infinite alternate;
+    animation: wave-under 2s ease-in-out  infinite alternate;
 
 }
 
@@ -251,13 +265,13 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(3%);
+        transform: translateY(2%);
     }
 }
 
 
 #waves {
-    animation: waves 1s ease-in-out infinite alternate;
+    animation: waves 1.2s ease-in-out infinite alternate;
 }
 
 @keyframes waves {
@@ -265,7 +279,7 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(3%);
+        transform: translateY(2%);
     }
 }
 
@@ -278,7 +292,7 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(2%);
+        transform: translateY(3%);
     }
 }
 
