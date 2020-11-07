@@ -1,3 +1,6 @@
+
+
+
 /*  ANIAMTE SUN */
 
 
@@ -42,6 +45,7 @@
     animation: surfer-total 2s ease-in-out infinite alternate;
     transform-origin: center;
     transform-box: fill-box;
+
 }
 
 @keyframes surfer-total {
@@ -49,13 +53,11 @@
         transform: translate(0%, 5%);
     }
     50% {
-        transform: translate(-20%, 25%);
+        transform: translate(-20%, 25%) ;
     }
 
-
-
     100% {
-        transform: translate(3% 3%);
+        transform: translate(3%, 3%) rotateX(-20deg) scale(.98);
     }
 }
 
@@ -253,8 +255,6 @@
 }
 
 
-
-
 .wave-under {
     animation: wave-under 2s ease-in-out  infinite alternate;
 
@@ -271,7 +271,8 @@
 
 
 #waves {
-    animation: waves 1.2s ease-in-out infinite alternate;
+    animation: waves 1.1s ease-in-out infinite alternate;
+
 }
 
 @keyframes waves {
@@ -279,15 +280,15 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(2%);
+        transform: translateY(2%) rotateX(15deg);
     }
 }
 
 .waves-secondary {
-    animation: waves 1.1s ease-in-out infinite alternate;
+    animation: waves-secondary 1.1s ease-in-out infinite alternate;
 }
 
-@keyframes waves {
+@keyframes waves-secondary {
     from{
         transform: translateY(0%);
     }
@@ -370,7 +371,7 @@
 /* SHARK */
 
 #shark {
-    animation: shark 15s linear infinite forwards;
+    animation: shark 12s linear infinite forwards;
     transform-origin: center;
     transform-box: view-box;
 }
@@ -378,15 +379,15 @@
 @keyframes shark {
 
     0% {
-        transform: translate(-20%, 100%) scale(2);
+        transform: translate(-20%, 100%) scale(2) rotateY(30deg);
     }
 
     40% {
-        transform: translate(180%, 130%) scale(3.1);
+        transform: translate(180%, 130%) scale(3.1) rotateY(-60deg);
     }
 
     100% {
-        transform: translate(250%, 135%) scale(2);
+        transform: translate(200%, 135%) scale(2);
     }
 }
 
