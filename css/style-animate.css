@@ -256,7 +256,7 @@
 
 
 .wave-under {
-    animation: wave-under 1.5s ease-in-out  infinite alternate;
+    animation: wave-under 1s ease-in-out  infinite alternate;
 
 }
 
@@ -271,7 +271,7 @@
 
 
 #waves {
-    animation: waves 1.5s ease-in-out infinite alternate;
+    animation: waves 1s ease-in-out infinite alternate;
     transform-origin: bottom left;
     transform-box: fill-box;
 
@@ -282,12 +282,12 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(2%) rotateX(15deg) scale(1.04);
+        transform: translateY(2%) rotateX(15deg) ;
     }
 }
 
 .waves-secondary {
-    animation: waves-secondary .8s ease-in-out infinite alternate;
+    animation: waves-secondary 1s ease-in-out .2s infinite alternate;
 }
 
 @keyframes waves-secondary {
@@ -295,7 +295,7 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(3%);
+        transform: translateY(3%) scale(1.01);
     }
 }
 
