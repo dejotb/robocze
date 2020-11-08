@@ -271,7 +271,7 @@
 
 
 #waves {
-    animation: waves 1s ease-in-out infinite alternate;
+    animation: waves 1.5s ease-in-out infinite alternate;
     transform-origin: bottom left;
     transform-box: fill-box;
 
@@ -287,7 +287,7 @@
 }
 
 .waves-secondary {
-    animation: waves-secondary 1s ease-in-out .2s infinite alternate;
+    animation: waves-secondary 1.5s ease-in-out .2s infinite alternate;
 }
 
 @keyframes waves-secondary {
@@ -295,7 +295,7 @@
         transform: translateY(0%);
     }
     to {
-        transform: translateY(3%) scale(1.01);
+        transform: translateY(3%) scale(1.005);
     }
 }
 
