@@ -1,0 +1,216 @@
+
+
+
+
+
+
+
+/* /////////////////////// */
+
+/* #fkolo-total,
+#had {
+    animation: had .9s infinite ;
+    transform-origin: top left;
+    transform-box: stroke-box;
+} */
+
+
+/* @keyframes had {
+    from    {
+        transform: translateY(4px) translateX(28px);
+    }
+    to {
+        transform: translateY(-4px) translateX(28px);
+    }
+} */
+
+
+
+
+#drill {
+    animation: drill .1s linear 3s  infinite;
+
+}
+
+@keyframes drill {
+    from {
+        transform: translate(4%, -6%);
+    }
+    to {
+        transform: translate(4%, -5%);
+    }
+}
+
+
+#trach {
+    animation: trach .2s linear 3s  infinite;
+    transform-origin: top left;
+    transform-box: view-box;
+}
+
+
+@keyframes trach {
+    from {
+        transform: translate(4%, -6%);
+    }
+    to {
+        transform: translate(4%, -6.2%);
+    }
+}
+
+
+#mouth {
+    animation: mouth .001s ease-in-out 6s forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes mouth {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
+
+
+#hand-left,
+#hand-right {
+    animation: hands .1s ease-in-out 3.5s infinite;
+}
+
+@keyframes hands {
+    from {
+        transform: translate(0%, -1%);
+    }
+    to {
+        transform: translate(0%, 1%);
+    }
+}
+
+
+#glasses,
+#shirt {
+    animation: body-top .1s linear 4s infinite;
+}
+
+@keyframes body-top {
+    from {
+        transform: translate(0%, 0%);
+    }
+    to {
+        transform: translate(0%, -1%);
+    }
+}
+
+
+#head {
+    animation: head .1s ease-in-out 4s  infinite;
+}
+
+@keyframes head {
+    from {
+        transform: translate(4%, .1%);
+    }
+    to {
+        transform: translate(4%, -.7%);
+    }
+}
+
+
+
+
+
+
+#leg-right,
+#leg-left {
+    animation: body-top .1s ease-in-out 5s  infinite;
+}
+
+@keyframes body-top {
+    from {
+        transform: translate(0%, 0%);
+    }
+    to {
+        transform: translate(.1%, 1%);
+    }
+}
+
+#fkolo-total {
+    animation: fkolo-total 1s ease-in-out 7s  infinite;
+}
+
+@keyframes fkolo-total {
+    from {
+        transform: translate(0%, 1%);
+    }
+    to {
+        transform: translate(0%, -1%);
+    }
+}
+
+/* #glasses {
+    animation: glasses .1s linear 8s infinite;
+}
+
+@keyframes glasses {
+    from {
+        transform: translate(0%, 0%);
+    }
+    to {
+        transform: translate(0%, -.2%);
+    }
+} */
+
+
+#cap {
+    animation: cap 1s ease-in-out 9s forwards;
+    transform-origin: bottom left;
+    transform-box: view-box;
+}
+
+@keyframes cap {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-200deg);
+    }
+}
+
+
+
+
+.total-surf {
+    animation: total-surf 6s ease-in-out 11s backwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes total-surf {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(720deg) scale(0);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+#glasses {
+    animation: glasses .1s linear 13s forwards;
+}
+
+@keyframes glasses {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
