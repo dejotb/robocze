@@ -118,7 +118,7 @@ section {
   background-size: cover; /* Resize the background image to cover the entire container */
     margin-bottom: -3em;
     align-items: center;
-    margin-left: -3em;
+    margin-left: -2em;
 }
 
 .wrapper-section-2 {
@@ -197,6 +197,15 @@ footer {
 
 }
 
+.audio {
+align-self: center;
+justify-self: flex-start;
+padding-bottom: 5em;
+}
+
+audio {
+    width: 8em;
+}
 
 @media (min-width: 578px) {
 
