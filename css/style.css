@@ -114,6 +114,9 @@ section {
     /* background-image: radial-gradient(#0984e3 50%,  #74b9ff 60%, pink 10%); */
     background-image: url("../img/universe.jpg");
     /* background-color: #714ABA; */
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
     margin-bottom: -3em;
     align-items: center;
 }
