@@ -115,7 +115,7 @@ section {
     background-image: url("../img/universe.jpg");
     /* background-color: #714ABA; */
     margin-bottom: -3em;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .wrapper-section-2 {
