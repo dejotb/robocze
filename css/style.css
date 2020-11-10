@@ -85,7 +85,8 @@ section {
 .section-item-1,
 .site-nav {
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    padding-top: 5em;
 
 }
 
@@ -101,19 +102,20 @@ section {
 
 .section-item-1 {
     width: 100%;
-    margin-top: auto;
-    margin-bottom: -.5em;
+
+
 }
 
 
 .wrapper-section-1 {
     display: flex;
-    position: relative;
     overflow: hidden;
-    min-height: 60vh;  /* change to 30vh */
-    background-image: linear-gradient(#0984e3 5%,  #74b9ff 58%);
+    min-height: 100vh;  /* change to 30vh */
+    /* background-image: radial-gradient(#0984e3 50%,  #74b9ff 60%, pink 10%); */
+    background-image: url("../img/universe.jpg");
     /* background-color: #714ABA; */
     margin-bottom: -3em;
+    align-items: flex-start;
 }
 
 .wrapper-section-2 {
@@ -188,7 +190,7 @@ footer {
 }
 
 .total-surf {
-    max-width: 53em;
+    max-width: 70em;
     margin: 0 auto;
 }
 
