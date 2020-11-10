@@ -193,7 +193,7 @@ footer {
 }
 
 .total-surf {
-    max-width: 70em;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -219,6 +219,11 @@ footer {
     .section-item-3,
     .section-item-4 {
         width: 80%;
+        margin: 0 auto;
+    }
+
+    .total-surf {
+        max-width: 80vw;
         margin: 0 auto;
     }
 

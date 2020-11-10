@@ -111,10 +111,10 @@
 
 @keyframes head {
     from {
-        transform: translate(4%, .1%);
+        transform: translate(4.5%, .1%);
     }
     to {
-        transform: translate(4%, -.7%);
+        transform: translate(4.5%, -.7%);
     }
 }
 
