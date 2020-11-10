@@ -17,6 +17,7 @@
 
 body * + * {
     font-family: 'Ubuntu', sans-serif;
+
 }
 
 h1 span {
@@ -200,7 +201,10 @@ footer {
 .audio {
 align-self: center;
 justify-self: flex-start;
-padding-bottom: 5em;
+background-image: url("../img/universe.jpg");
+/* background-color: #714ABA; */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 audio {
