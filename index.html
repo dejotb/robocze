@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate-fkolo.css">
-    <!-- <link rel="stylesheet" href="css/style-hover.css"> -->
     <title>the drill</title>
 </head>
 <body>
+    <iframe src="audio/drill.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
 
-    <div class="audio">
-        <audio controls crossorigin="anonymous" loop>
-            <source src="audio/drill.mp3" type="audio/mp3">
-        </audio>
-    </div>
+    <audio id="player" autoplay loop">
+        <source src="silence.mp3" type="audio/mp3">
+    </audio>
+
+
 
 <div class="wrapper-section-1">
     <section class="section-item-1">
@@ -194,15 +194,8 @@
 
 
 
-                <!-- </section>
-            </div>
-            <div class="wrapper-section-2">
 
-                </section>
-            </div> -->
-
-
-    </div><!-- / conatainer-main -->
+        <!-- <script src="app.js"></script> -->
 </body>
 </html>
 
