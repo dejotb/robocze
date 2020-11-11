@@ -28,22 +28,22 @@
 
 
 #drill {
-    animation: drill .1s linear 3s  infinite;
+    animation: drill .1s linear 3.5s  infinite;
 
 }
 
 @keyframes drill {
     from {
-        transform: translate(4%, -6%);
+        transform: translate(-20%, -15%);
     }
     to {
-        transform: translate(4%, -5%);
+        transform: translate(-20%, -16%);
     }
 }
 
 
 #trach {
-    animation: trach .2s linear 3s  infinite;
+    animation: trach .2s linear 3.5s  infinite;
     transform-origin: top left;
     transform-box: view-box;
 }
@@ -60,7 +60,7 @@
 
 
 #mouth {
-    animation: mouth .001s ease-in-out 6s forwards;
+    animation: mouth .001s ease-in-out 7s forwards;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -77,7 +77,7 @@
 
 #hand-left,
 #hand-right {
-    animation: hands .1s ease-in-out 3.5s infinite;
+    animation: hands .1s ease-in-out 3.8s infinite;
 }
 
 @keyframes hands {
@@ -106,15 +106,15 @@
 
 
 #head {
-    animation: head .1s ease-in-out 4s  infinite;
+    animation: head .1s ease-in-out 4.2s  infinite;
 }
 
 @keyframes head {
     from {
-        transform: translate(4.5%, .1%);
+        transform: translate(-20%, -8%);
     }
     to {
-        transform: translate(4.5%, -.7%);
+        transform: translate(-20%, -9%);
     }
 }
 
@@ -125,7 +125,7 @@
 
 #leg-right,
 #leg-left {
-    animation: body-top .1s ease-in-out 5s  infinite;
+    animation: body-top .1s ease-in-out 4.4s  infinite;
 }
 
 @keyframes body-top {
@@ -138,7 +138,7 @@
 }
 
 #fkolo-total {
-    animation: fkolo-total 1s ease-in-out 7s  infinite;
+    animation: fkolo-total 1s ease-in-out 8s  infinite;
 }
 
 @keyframes fkolo-total {
@@ -165,7 +165,7 @@
 
 
 #cap {
-    animation: cap 1s ease-in-out 9s forwards;
+    animation: cap 1s ease-in-out 11s forwards;
     transform-origin: bottom left;
     transform-box: view-box;
 }
@@ -183,7 +183,7 @@
 
 
 .total-surf {
-    animation: total-surf 6s ease-in-out 11s backwards;
+    animation: total-surf 6s ease-in-out 12s backwards;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -191,10 +191,10 @@
 
 @keyframes total-surf {
     0% {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1) translateY(0%);
     }
     50% {
-        transform: rotate(720deg) scale(0);
+        transform: rotate(720deg) scale(0) translateY(30%);
     }
     100% {
         transform: rotate(0deg);
@@ -203,7 +203,7 @@
 
 
 #glasses {
-    animation: glasses .1s linear 13s forwards;
+    animation: glasses .1s linear 14s forwards;
 }
 
 @keyframes glasses {
